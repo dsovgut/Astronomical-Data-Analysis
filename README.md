@@ -28,4 +28,15 @@ http://quasar.astro.illinois.edu/teaching/ASTR414/filters/
 Using the bands in the IR regime, we build the following plot: 
 <img width="689" alt="Screen Shot 2020-10-10 at 00 39 32" src="https://user-images.githubusercontent.com/35746740/95646744-20195980-0a91-11eb-976a-eb9b2472ffa9.png">
 
+## Optical Image Data
+
+Open the files with python. Note that for the bias and flat files, the first extension of the
+fits file stores the pixel values.
+• Look at the images and save an image (e.g., .png file) of them. Get the range of pixel
+values for the three image frames.
+• Plot histograms of the pixel values for each image data. Plot all three on a single plot,
+normalized and labeled, properly. In order to plot all three histograms on the same plot,
+you need to use a logarithmic scaling for the x-axis (pixel values) because the pixel
+values are very different for the three image frames. 
+
 
