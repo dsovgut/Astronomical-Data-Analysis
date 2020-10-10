@@ -48,4 +48,12 @@ is applied to all pixels in the image. The original images as well as smoothed i
 ![8-3](https://user-images.githubusercontent.com/35746740/95647313-16ddbc00-0a94-11eb-87a4-2d6425eb4d43.png)
 ![8-4](https://user-images.githubusercontent.com/35746740/95647314-17765280-0a94-11eb-8b0d-e949969b472b.png)
 
+## Image Stamp
+I am using a galaxy with the following J2000 coordinates of this galaxy are RA=03:14:04.8 and DEC=-12:42:46.4. I downloaded reduced DES image, located the target galaxy using DS9 software. This program reads an image and cuts out a 1 arcmin by 1 arcmin square region centered on the target. It also puts a stamp to highlight the region of interest. The following image is the output: 
+<img width="652" alt="Screen Shot 2020-10-10 at 01 14 40" src="https://user-images.githubusercontent.com/35746740/95647568-ff073780-0a95-11eb-87ec-2303d4e85d0e.png">
+
+
+
+
+
 
