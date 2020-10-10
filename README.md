@@ -52,6 +52,12 @@ is applied to all pixels in the image. The original images as well as smoothed i
 I am using a galaxy with the following J2000 coordinates of this galaxy are RA=03:14:04.8 and DEC=-12:42:46.4. I downloaded reduced DES image, located the target galaxy using DS9 software. This program reads an image and cuts out a 1 arcmin by 1 arcmin square region centered on the target. It also puts a stamp to highlight the region of interest. The following image is the output: 
 <img width="652" alt="Screen Shot 2020-10-10 at 01 14 40" src="https://user-images.githubusercontent.com/35746740/95647568-ff073780-0a95-11eb-87ec-2303d4e85d0e.png">
 
+## Plotting Quasar Locations
+Firstly, RA/DEC and refshift data for a sample of quasars was retrieved from the SDSS survey. The program calculates distance modulus for each quasar using redshifts. Program calculates the luminosity distance d for each redshift, and converts luminosity distance to distance modulus using DM=5log10(d/10 pc). Apparent magnitudes are converted to absoluted magntiudes and my output is shown below: 
+![Quasar](https://user-images.githubusercontent.com/35746740/95647689-1abf0d80-0a97-11eb-9b26-f6c2ae99e3a0.png)
+![RvsA](https://user-images.githubusercontent.com/35746740/95647691-1d216780-0a97-11eb-973b-b4ce72d88dcb.png)
+
+
 
 
 
