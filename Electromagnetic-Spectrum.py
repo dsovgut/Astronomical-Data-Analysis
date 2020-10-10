@@ -14,11 +14,11 @@ def setup(ax):
     ax.set_xlim(0, 10)
     ax.set_ylim(0, 1.1)
     ax.patch.set_alpha(0.0)
-
     ax.yaxis.set_major_locator(ticker.NullLocator())
     ax.spines['top'].set_color('none')
     ax.xaxis.set_ticks_position('bottom')
     ax.tick_params(which='major', width=1.00)
+
 x = [10^-2,10^-3,10^-4,10^-5,10^-6]
 plt.figure(figsize=(8, 5.5))
 plt.plot(x,x)
