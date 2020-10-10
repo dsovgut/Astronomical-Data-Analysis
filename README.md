@@ -33,7 +33,9 @@ This program opens three fits files downloaded from the Dark Energy Survey. The 
 ![Combined-Frames](https://user-images.githubusercontent.com/35746740/95646888-78049000-0a92-11eb-97a6-f1428bfe4176.png)
 It also plots historgram of the pixel values for each image data on a single plot that is normalized using logarithmic scaling for the x-axis: 
 ![Histogram](https://user-images.githubusercontent.com/35746740/95646894-8783d900-0a92-11eb-9fec-50ec0bfcd1cb.png)
-Finally, the three frames and the histogram are used to generate the following reduced image:
+
+## Image Data Reduction Part2
+Program goes into each row of the array and measures the median value of the science array between x pixels: this is the value of the amplifier offset from the overscan. Then, it subtracts this value off from the rest of the row up to the end of the Amp B sector. Then, the same operation is done with an Amp A sector on the right of the chip. Then, images are trimmed to match bias and flat; bias is subtracted; dividing by the flat; producing a following new reduced image: 
 ![Reduced](https://user-images.githubusercontent.com/35746740/95647167-eb0e0680-0a92-11eb-938c-af50ba270f06.jpg)
 
 ## Boxcar Image Smoothing
