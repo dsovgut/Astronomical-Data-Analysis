@@ -28,7 +28,7 @@ http://quasar.astro.illinois.edu/teaching/ASTR414/filters/
 Using the bands in the IR regime, we build the following plot: 
 <img width="689" alt="Screen Shot 2020-10-10 at 00 39 32" src="https://user-images.githubusercontent.com/35746740/95646744-20195980-0a91-11eb-976a-eb9b2472ffa9.png">
 
-## Optical Image Data
+## Image Data Reduction
 This program opens three fits files downloaded from the Dark Energy Survey. The images are of bias, flat, and data files. It calculates the range of pixels values for three image frames; 
 ![Combined-Frames](https://user-images.githubusercontent.com/35746740/95646888-78049000-0a92-11eb-97a6-f1428bfe4176.png)
 It also plots historgram of the pixel values for each image data on a single plot that is normalized using logarithmic scaling for the x-axis: 
