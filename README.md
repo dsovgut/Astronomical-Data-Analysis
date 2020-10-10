@@ -17,3 +17,6 @@ This is a Monte Carlo program generating 100 randomly placed supernovae within a
 Assuming that each supernovae has a brightness governed by M = -19 +G(1) where G(1) is a random number with Gaussian distribution and standard deviation of one magnitude, it calculates the apparent magnitude of each supernovae using the distance generated in part. If m>20, the program rejects the sample as too faint. The plot of magnitude for the distance of all supernovae is shown below. Also displayed on the plot: the average magnitude of the original and detected sample, calculated velocity from the Hubble's law.
 
 ![HW2-3](https://user-images.githubusercontent.com/35746740/95646596-bcdaf780-0a8f-11eb-9c7d-bf469117d592.png)
+
+## 4.Hubble Constant Calculation
+Using data simulated in the previous program (Monte Carlo Simulation), this program builds a trendline through all the detected points. This plot shows the level of bias in our observations.   
