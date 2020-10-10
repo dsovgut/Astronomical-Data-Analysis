@@ -36,4 +36,14 @@ It also plots historgram of the pixel values for each image data on a single plo
 Finally, the three frames and the histogram are used to generate the following reduced image:
 ![Reduced](https://user-images.githubusercontent.com/35746740/95647167-eb0e0680-0a92-11eb-938c-af50ba270f06.jpg)
 
+## Boxcar Image Smoothing
+
+We are using r-band image data (DESJ053816.9-503050.8_r.fits) from the following source:http://quasar.astro.illinois.edu/teaching/ASTR414/hw5-data.zip
+The program loads the r-band fits image, applies a boxcar smoothing of the original image with a kernel size of (1) 3x3 pixels, 7x7 pixels, and 11x11 pixels. For each boxcarsmoothed full-frame images, the central 200x200 pixels are cut out. Boxcar smoothing is taking the arithmetic mean of all the pixel values in the N by N kernel window and assigns the mean to the central pixel; the operation
+is applied to all pixels in the image. The original images as well as smoothed images that were output of the program shown below: 
+![8-1](https://user-images.githubusercontent.com/35746740/95647311-15ac8f00-0a94-11eb-9364-160da617257e.png)
+![8-2](https://user-images.githubusercontent.com/35746740/95647312-16ddbc00-0a94-11eb-9823-c6160cd42f5e.png)
+![8-3](https://user-images.githubusercontent.com/35746740/95647313-16ddbc00-0a94-11eb-87a4-2d6425eb4d43.png)
+![8-4](https://user-images.githubusercontent.com/35746740/95647314-17765280-0a94-11eb-8b0d-e949969b472b.png)
+
 
