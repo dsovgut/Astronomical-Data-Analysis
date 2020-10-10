@@ -1,5 +1,5 @@
-# Astronomical-Data-Analysis
-These codes were written for the UIUC Astronomical Techniques class. There is a diverse toolset that could be used to analyze astronomical images, make visualizations, and analyze data. Below are the description and output for each program:  
+# Astronomical Data Analysis
+These codes were written for the UIUC Astronomical Techniques class. There is a diverse toolset that could be used to analyze astronomical images, make visualizations, and analyze data. Below are the descriptions and outputs for each program:  
 
 ## 1. Electromagnetic Spectrum
 This code generates the following plot of the electromagnetic spectrum.  
@@ -26,4 +26,6 @@ Using data simulated in the previous program (Monte Carlo Simulation), this prog
 This program uses data for the atmospheric transmission at Mauna Kea. I used the filter transmission curves from here:
 http://quasar.astro.illinois.edu/teaching/ASTR414/filters/
 Using the bands in the IR regime, we build the following plot: 
+<img width="689" alt="Screen Shot 2020-10-10 at 00 39 32" src="https://user-images.githubusercontent.com/35746740/95646744-20195980-0a91-11eb-976a-eb9b2472ffa9.png">
+
 
