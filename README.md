@@ -33,5 +33,7 @@ This program opens three fits files downloaded from the Dark Energy Survey. The 
 ![Combined-Frames](https://user-images.githubusercontent.com/35746740/95646888-78049000-0a92-11eb-97a6-f1428bfe4176.png)
 It also plots historgram of the pixel values for each image data on a single plot that is normalized using logarithmic scaling for the x-axis: 
 ![Histogram](https://user-images.githubusercontent.com/35746740/95646894-8783d900-0a92-11eb-9fec-50ec0bfcd1cb.png)
+Finally, the three frames and the histogram are used to generate the following reduced image:
+![Histogram](https://user-images.githubusercontent.com/35746740/95647064-c87bed80-0a92-11eb-9aeb-9dc15633c47b.png)
 
 
