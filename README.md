@@ -20,3 +20,4 @@ Assuming that each supernovae has a brightness governed by M = -19 +G(1) where G
 
 ## 4.Hubble Constant Calculation
 Using data simulated in the previous program (Monte Carlo Simulation), this program builds a trendline through all the detected points. This plot shows the level of bias in our observations.   
+<img width="693" alt="Screen Shot 2020-10-10 at 00 31 35" src="https://user-images.githubusercontent.com/35746740/95646657-789c2700-0a90-11eb-9392-1d2e0ac14b41.png">
